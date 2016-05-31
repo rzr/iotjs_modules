@@ -1,0 +1,12 @@
+*#
+**/**#**
+*-stamp
+*.exe
+*.mine
+*.o
+*.orig
+*.rej
+*.tmp
+*~
+.#*
+tmp
