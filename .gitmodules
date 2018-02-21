@@ -1,3 +1,6 @@
 [submodule "air-lpwan-demo"]
 	path = air-lpwan-demo
 	url = https://github.com/rzr/air-lpwan-demo
+[submodule "mastodon-lite"]
+	path = mastodon-lite
+	url = https://github.com/rzr/mastodon-lite
