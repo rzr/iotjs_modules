@@ -85,4 +85,23 @@ cd iotjs_modules/{submodule}
 git pull origin {branch}
 ```
 
+Application developers can use git or npm to add a module,
+if module is compatible with node (same dependencies), then it can be pulled from npm repo:
+
+
+```
+ls package.json || npm init
+npm install {package}
+```
+
+If package hosted on npmjs.com is not explictly supported by iotjs,
+then it should be forked (package.json updated) and then installed from alternative place ie:
+
+```
+npm install https://github.com/{user}/{package}
+```
+
+(you can align to URLs and versions listed in iotjs_modules)
+
+
 Don't hesitate to reach community ( irc://irc.freenode.net/#iotjs ) for help or suggestions.
