@@ -4,3 +4,6 @@
 [submodule "mastodon-lite"]
 	path = mastodon-lite
 	url = https://github.com/rzr/mastodon-lite
+[submodule "bh1750"]
+	path = bh1750
+	url = https://github.com/TizenTeam/bh1750
